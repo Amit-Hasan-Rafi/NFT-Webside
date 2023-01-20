@@ -1,0 +1,7 @@
+@import url("./Common/Style/CommonClass.css");
+@import url("./Common/Style/Variables.css");
+
+body{
+    background-color: var(--background);
+    color: var(--white);
+}
