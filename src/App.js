@@ -8,7 +8,7 @@ import TrendingNFT from './Components/TrendingNFT/TrendingNFT';
 
 function App() {
   return (
-    <div>
+    <div className='max-width'>
       <Header></Header>
       <TopFold></TopFold>
       <Brands></Brands>

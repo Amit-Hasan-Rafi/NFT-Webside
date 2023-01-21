@@ -9,5 +9,5 @@
     background: var(--text-gradient-bg);
     background: var(--text-gradient-1);
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; /* its making the text transparent */
 }
