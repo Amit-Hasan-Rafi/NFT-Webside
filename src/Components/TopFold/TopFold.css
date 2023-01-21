@@ -4,6 +4,7 @@
 }
 .tf-left{
     display: flex;
+    flex: 1;
     flex-direction: column;
     padding-right: 48px;
 }
@@ -37,4 +38,49 @@
 .tf-left-info-label{
     font-size: 14px;
     font-weight: 600;
+}
+
+.tf-right{
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+.tf-right-diamond{
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    transform: rotate(45deg);
+}
+.tf-right-diamond-items{
+    height: 240px;
+    width: 240px;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: rotate(-45deg);
+    margin:5px;
+}
+.tf-right-diamond-items img{
+    height: 400px;
+   object-fit: contain;
+   display: block;
+}
+.tf-right-bg-blop{
+    height: 320px;
+    width: 380px;
+    background-color: rgb(33, 255, 133);
+    filter: blur(170px);
+    position: absolute;
+    z-index: -70;
+    transform: translate(8%);
+    border-radius: 80%;
+    top: 15%;
+    left: 0%;
+    right: 11%;
+}
+.tf-right-diamond-extra-pic{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    right: 45%;
+    top: 36%;
 }
