@@ -1,0 +1,32 @@
+.brands-div {
+    margin-top: 50px;
+    height: 300px;
+    width: 100%;
+    border-radius: 60%;
+}
+
+.brands-div-bg {
+    height: 150px;
+    margin-top: 4%;
+    width: 80%;
+    border-radius: 60%;
+    background-color: rgba(127, 135, 222, 0.81);
+    filter: blur(100px);
+    position: absolute;
+    z-index: -70;
+}
+
+.brands-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: 22%;
+
+}
+
+.c-imgs {
+    width: 20%;
+    padding: 10px;
+}

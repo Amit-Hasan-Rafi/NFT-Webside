@@ -1,5 +1,5 @@
 .top-fold{
-    height: 92vh;
+    height: 108vh;
     overflow: hidden;
 }
 .tf-left{
@@ -50,6 +50,7 @@
     margin-top: 30px;
     flex-wrap: wrap;
     transform: rotate(45deg);
+    border-radius: 100%;
 }
 .tf-right-diamond-items{
     height: 240px;
@@ -65,14 +66,14 @@
    display: block;
 }
 .tf-right-bg-blop{
-    height: 320px;
+    height: 310px;
     width: 380px;
     background-color: rgb(33, 255, 133);
-    filter: blur(170px);
+    filter: blur(140px);
     position: absolute;
     z-index: -70;
     transform: translate(8%);
-    border-radius: 80%;
+    /* border-radius: 80%; */
     top: 15%;
     left: 0%;
     right: 11%;
